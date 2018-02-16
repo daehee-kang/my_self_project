@@ -1,0 +1,31 @@
+<resources>
+    //main activity strings
+    <string name="app_name">Attendance</string>
+    <string name="attendance">Attendance</string>
+    <string name="stats">Statistics</string>
+    <string name="person">Person</string>
+    <string name="exit">Exit</string>
+
+    //attendance activity strings
+    <string name="create">Create New Group</string>
+
+    //create activity strings
+    <string name="nameGroup">Give a name to this group:</string>
+    <string name="setDate">Set the date for the event:</string>
+    <string name="dateFormatHint">MMDDYYYY</string>
+    <string name="chooseCycle">Choose Cycle:</string>
+    <string name="participants">Enter the name of participants:</string>
+
+    //person activity strings
+    <string name="addPerson">Add Person</string>
+    <string name="updatePerson">Update Person</string>
+    <string name="deletePerson">Delete Person</string>
+    <string name="viewPerson">View Person</string>
+
+    //add person activity strings
+    <string name="lastName">Last Name</string>
+    <string name="firstName">First Name</string>
+    <string name="age">Age</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+</resources>

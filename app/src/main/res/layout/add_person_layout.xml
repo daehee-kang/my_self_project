@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loAddPerson"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="@string/addPerson"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLastName"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:hint="@string/lastName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFirstName"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:hint="@string/firstName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAge"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:hint="@string/age"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPhone"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:hint="@string/phone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAddress"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:hint="@string/address"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bAddPersonItem"
+        android:text="@string/addPerson"
+        android:textSize="20dp"/>
+</LinearLayout>
